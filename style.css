@@ -1,0 +1,26 @@
+
+
+body {
+    background-image: url('images/1.jpg');
+}
+
+.button {
+    position: fixed;
+    width: 5em;
+    height: 5em;
+    border:  1px solid black;
+    background: transparent;
+    top: 50%;
+}
+
+.button:focus {
+    outline: 0;
+}
+
+#right {
+    right: 1%;
+}
+
+#left {
+    left: 1%;
+}
